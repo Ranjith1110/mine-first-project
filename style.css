@@ -1,0 +1,599 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body {
+    /* overflow: hidden; */
+}
+
+#first-container {
+    border: px solid;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 40px 40px 0px 40px;
+    border-radius: 30px;
+    box-shadow: -5px 5px 5px lightslategray;
+    z-index: 1;
+}
+
+/*** href properties ***/
+.medic {
+    text-decoration: none;
+}
+
+.care {
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5cap;
+    position: relative;
+    left: 630px;
+    top: -25px;
+}
+
+.care-1 {
+    color: gray;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 494px;
+    top: -5px;
+}
+
+.care-2 {
+    color: gray;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 28px;
+    top: -7px;
+}
+
+.care-3 {
+    color: gray;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 68px;
+    top: -7px;
+}
+
+.care-4 {
+    color: gray;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 108px;
+    top: -7px;
+}
+
+.care-5 {
+    color: gray;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 390px;
+    top: -7px;
+}
+
+.care-6 {
+    color: gray;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 430px;
+    top: -7px;
+}
+
+.care-7 {
+    color: gray;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 470px;
+    top: -7px;
+}
+
+/*** href properties finished ***/
+
+/*** Doctor Image ***/
+#second-container {
+    border: px solid;
+    position: relative;
+    top: 40px;
+}
+
+.doctor-img {
+    margin-left: 100px;
+    height: 600px;
+    z-index: 0;
+    /* border-radius: 10px; */
+}
+
+.lives {
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+    border: 0px solid;
+    background-color: white;
+    border-radius: 10px;
+    width: 570px;
+    height: 291px;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.live {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    z-index: 0;
+    color: lightslategrey;
+}
+
+/*** Doctor Image Finished ***/
+
+/*** About of doctor ***/
+#third-container {
+    border: 0px solid;
+    position: relative;
+    bottom: 70px;
+    height: 740px;
+}
+
+.meet {
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dr-carson {
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: lightslategray;
+}
+
+.about-doctor {
+    border: px solid;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 935px;
+    bottom: 500px;
+    background-color: whitesmoke;
+    border-radius: 200px;
+    box-shadow: -15px 15px 15px lightslategray;
+    background-image: linear-gradient(to bottom, rgb(220, 220, 220), rgb(210, 220, 230));
+}
+
+.class-12 {
+    font-family: monospace;
+    font-size: 15cap;
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+
+.years {
+    position: relative;
+    left: 220px;
+    bottom: 120px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategray;
+}
+
+.of-years {
+    position: relative;
+    left: 90px;
+    bottom: 195px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategray;
+}
+
+.doctor-img-1 {
+    height: 200px;
+    position: relative;
+    top: 40px;
+    left: 160px;
+    border-radius: 10px;
+}
+
+.doctor-img-2 {
+    position: relative;
+    top: 150px;
+    left: 160px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/*** About of doctor finished ***/
+
+/*** Timeline content  ***/
+#fourth-container {
+    height: 780px;
+    border: 0px solid;
+}
+
+.our-timeline {
+    margin-left: 43%;
+    margin-bottom: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.get-vaccine {
+    position: relative;
+    left: 170px;
+    top: 20px;
+    height: 60px;
+    width: 500px;
+    border: 1px solid;
+    font-size: 2.5cap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.get {
+    position: relative;
+    left: 260px;
+    bottom: 12px;
+}
+
+.content {
+    position: relative;
+    left: 172px;
+    top: -2px;
+    border: px solid;
+    height: 130px;
+    width: 499px;
+    font-size: 2cap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(210, 220, 230));
+}
+
+.donec {
+    position: relative;
+    left: 19px;
+    top: 20px;
+}
+
+.icon-1 {
+    position: relative;
+    left: 668px;
+    bottom: 160px;
+}
+
+.fa-solids {
+    position: relative;
+    left: 16px;
+    top: 22px;
+    /* height: 100px; */
+}
+
+.right-icon {
+    position: relative;
+    left: 745px;
+    bottom: 200px;
+    border-radius: 30px;
+    border: px solid;
+    height: 60px;
+    width: 60px;
+    box-shadow: 5px 5px 5px lightslategrey;
+    background-image: linear-gradient(to left, rgb(220, 220, 220), rgb(210, 220, 230));
+}
+
+.sat-2021 {
+    position: absolute;
+    left: 880px;
+    top: 1880px;
+    font-family: cursive;
+}
+
+.book-icon {
+    position: relative;
+    left: 745px;
+    bottom: 40px;
+    border-radius: 30px;
+    border: px solid;
+    height: 60px;
+    width: 60px;
+    box-shadow: 5px 5px 5px lightslategrey;
+    background-image: linear-gradient(to left, rgb(220, 220, 220), rgb(210, 220, 230));
+}
+
+.fa-solids-1 {
+    position: relative;
+    left: 19px;
+    top: 22px;
+    /* height: 100px; */
+}
+
+.consulting-your-health {
+    position: relative;
+    left: 170px;
+    top: -100px;
+    height: 60px;
+    width: 500px;
+    border: 1px solid;
+    font-size: 2.5cap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.content-2 {
+    position: relative;
+    left: 172px;
+    top: -122px;
+    border: px solid;
+    height: 130px;
+    width: 499px;
+    font-size: 2cap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(210, 220, 230));
+}
+
+.consulting-topic {
+    position: relative;
+    left: 170px;
+    bottom: 12px;
+}
+
+.donec-1 {
+    position: relative;
+    left: 19px;
+    top: 20px;
+}
+
+.icon-2 {
+    position: relative;
+    left: 668px;
+    bottom: 280px;
+}
+
+.thurs-2021 {
+    position: absolute;
+    left: 880px;
+    top: 2110px;
+    font-family: cursive;
+}
+
+.covid-19 {
+    position: relative;
+    left: 170px;
+    top: -100px;
+    height: 60px;
+    width: 500px;
+    border: 1px solid;
+    font-size: 2.5cap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.covid-19-topic {
+    position: relative;
+    left: 210px;
+    bottom: 12px;
+}
+
+.content-3 {
+    position: relative;
+    left: 172px;
+    top: -122px;
+    border: px solid;
+    height: 130px;
+    width: 499px;
+    font-size: 2cap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(210, 220, 230));
+}
+
+.donec-2 {
+    position: relative;
+    left: 19px;
+    top: 20px;
+}
+
+.icon-3 {
+    position: relative;
+    left: 668px;
+    bottom: 280px;
+}
+
+.globe-icon {
+    position: relative;
+    left: 745px;
+    bottom: 330px;
+    border-radius: 30px;
+    border: px solid;
+    height: 60px;
+    width: 60px;
+    box-shadow: 5px 5px 5px lightslategrey;
+    background-image: linear-gradient(to left, rgb(220, 220, 220), rgb(210, 220, 230));
+}
+
+.fa-solids-2 {
+    position: relative;
+    left: 21px;
+    top: 22px;
+    /* height: 100px; */
+}
+
+.sun-2021 {
+    position: absolute;
+    left: 880px;
+    top: 2340px;
+    font-family: cursive;
+}
+
+/*** Timeline content finished ***/
+
+/*** patients review ***/
+#fifth-container {
+    border: 0px solid;
+    height: 700px;
+    position: relative;
+    bottom: 25px;
+}
+
+.out-patients {
+    margin-left: 43%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.patients-img-1 {
+    height: 275px;
+    position: relative;
+    left: 299px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px lightslategrey;
+}
+
+.patients-img-2 {
+    height: 275px;
+    position: relative;
+    left: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px lightslategrey;
+}
+
+.patients-img-3 {
+    height: 275px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px lightslategrey;
+}
+
+.patients-img-4 {
+    height: 275px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px lightslategrey;
+}
+
+/*** patients review finished ***/
+
+/*** Book an appointment ***/
+#sixth-container {
+    border: px solid;
+}
+
+.booking {
+    margin-left: 40%;
+}
+
+.full-name {
+    /* display: block; */
+    width: 40%;
+    margin-top: 2rem;
+    margin-left: 29rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #818b95;
+    background-color: #fff;
+    /* background-clip: padding-box; */
+    border: 1px solid #ced4da;
+}
+
+#submit-button {
+    /* background: var(--dark-color); */
+    /* border-bottom: 0; */
+    /* font-weight: var(--font-weight-semibold); */
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-left: 44%;
+    width: 15%;
+}
+
+#submit-button:hover {
+    background-color: #247cff;
+}
+
+/*** Book an appoinment finished ***/
+
+/*** Contact ***/
+#seventh-container {
+    border: 0px solid;
+}
+
+.opening {
+    margin-top: 15rem;
+    margin-left: 10rem;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.un-order {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    margin-left: 8rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+.social {
+    margin-left: 55rem;
+    position: relative;
+    bottom: 16rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+
+/* .icons{
+    position: relative;left: 60rem;
+    bottom: 15rem;
+} */
+.i-1 {
+    position: relative;
+    left: 60rem;
+    bottom: 15rem;
+}
+
+.i-2 {
+    position: relative;
+    left: 60.5rem;
+    bottom: 15rem;
+}
+
+.i-3 {
+    position: relative;
+    left: 61rem;
+    bottom: 15rem;
+}
+
+.i-4 {
+    position: relative;
+    left: 61.5rem;
+    bottom: 15rem;
+}
+
+.ranjith {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 55rem;
+    margin-top: -10rem;
+}
+
+/* @media all and (max-width:501px){
+    .container p{
+        width: 39%;
+        float: right;
+        padding: 20px;
+        background-color: red;
+    }
+} */
